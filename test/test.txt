@@ -1,0 +1,16 @@
+
+//tmf\lib\httpRequest.php
+public function __construct(){
+    echo '$this->getRequestUri():'.$this->getRequestUri().'<br>';
+    echo '$this->getHostName():'.$this->getHostName().'<br>';
+    echo '$this->getReferrerURL():'.$this->getReferrerURL().'<br>';
+    echo '$this->getUserAgent():'.$this->getUserAgent().'<br>';
+    echo '$this->getUserIp():'.$this->getUserIp().'<br>';
+    echo '$this->getAbsoluteScriptFile():'.$this->getAbsoluteScriptFile().'<br>';
+    echo '$this->getScriptURL():'.$this->getScriptURL().'<br>';
+    echo '$this->getServerPort():'.$this->getServerPort().'<br>';
+    echo '$this->isHttps():'.var_dump($this->isHttps()).'<br>';
+    echo '$this->getHostURL():'.$this->getHostURL().'<br>';
+    echo '$this->getBaseURL():'.$this->getBaseURL().'<br>';
+    echo '$this->getAbsoluteBaseUrl():'.$this->getAbsoluteBaseUrl().'<br>';
+}
