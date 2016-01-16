@@ -1,0 +1,5 @@
+*.name
+.idea/copyright/profiles_settings.xml
+.idea/encodings.xml
+*.xml
+.idea/tmf.iml
